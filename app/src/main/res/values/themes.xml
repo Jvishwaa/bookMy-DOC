@@ -1,9 +1,22 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.BookMyDOC" parent="Theme.Material3.DayNight.NoActionBar">
+    <style name="Base.Theme.BookmyDOC" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="fontFamily">@font/roboto</item>
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
 
-    <style name="Theme.BookMyDOC" parent="Base.Theme.BookMyDOC" />
+    <style name="Theme.BookmyDOC" parent="Base.Theme.BookmyDOC" />
+
+    <style name="OtpBoxStyle">
+        <item name="android:layout_width">48dp</item>
+        <item name="android:layout_height">56dp</item>
+        <item name="android:layout_marginEnd">8dp</item>
+        <item name="android:background">@drawable/rounded_edittext</item>
+        <item name="android:gravity">center</item>
+        <item name="android:inputType">number</item>
+        <item name="android:maxLength">1</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">18sp</item>
+    </style>
 </resources>
